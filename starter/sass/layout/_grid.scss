@@ -1,6 +1,6 @@
 .row {
     max-width       : $gird-width;
-    background-color: #eee;
+    // background-color: #eee;
     margin          : 0 auto;
 
     &:not(:last-child) {
@@ -13,7 +13,7 @@
     // [class$="col-"] if its apply ends with "col-" class
     // [class^="col-"] if its apply starts with "col-" class
     [class^="col-"] {
-        background-color: orangered;
+        // background-color: orangered;
         float           : left;
 
         &:not(:last-child) {
